@@ -1,0 +1,9 @@
+[Unit]
+Description=The Honest ACME Daemon
+
+[Service]
+ExecStart=/opt/acmed/index.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
